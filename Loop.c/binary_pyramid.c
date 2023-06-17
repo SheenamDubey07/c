@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main(){
+    int i,j,k,l,n;
+    printf("Enter the range: ");
+    scanf("%d",&n);
+    for(i=0;i<n+1;i++){
+        if(i%2==0){
+           k=1;l=0; 
+        }
+        else{
+            k=0;l=1;
+        }
+        for(j=0;j<i;j++){
+            if(j%2==0){
+                printf("%d",k);
+            }
+            else{
+                printf("%d",l);
+            }
+        }
+        printf("\n");
+    }
+
