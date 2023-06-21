@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(){
+    int n,i,j,sum = 0,mul;
+    printf("enter the num: ");
+    scanf("%d",&n);
+    printf("Elements: \n");
+    for(i=1;i<n+1;i++){
+        mul = i*i;
+        sum = sum+mul;
+        
+        printf("%d\n",mul);
+    }
+    printf("Sum: %d",sum);
+    return 0;
+}
